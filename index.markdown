@@ -20,7 +20,7 @@ In addition MoveIt has some extra style preferences:
  - To document future work, use the format ``TODO(username): description``
  - Add extensive comments to explain complex sections of code
  - Prefer full, descriptive variable names over short acryonms - e.g. ``robot_state_`` over ``rs_``
- - Avoid ``auto``, if the variable type doesn’t become clear immediately from the context (e.g. from ``make_shared<...>``)
+ - Avoid ``auto`` if the variable type doesn’t become clear immediately from the context (e.g. from ``make_shared<...>``)
 
 ## Deprecation
 
@@ -91,9 +91,10 @@ Occationally the auto formatting used by clang-format might not make sense e.g. 
 
 Use this sparingly though.
 
-<details><summary>
-### Emacs Editor Configuration
-</summary><p>
+
+### Editor Configurations (click to expand)
+
+<details><summary>Emacs</summary><p>
 
 In your ``~/.emacs`` config file, add the following:
 
@@ -115,20 +116,23 @@ Format your source code if its in some directory such as the ``catkin_ws`` (feel
 Set a keyboard shortcut to run, such as F12
 
     (global-set-key [f12] 'run-ros-clang-format)
-
 </details>
+<p>
 
-### QtCreator Editor Configuration
+<details><summary>QtCreator</summary><p>
 
 Navigate to ``Tools`` > ``Options`` > ``Beautifier``
 On the ``General`` tab, enable auto format on file save, using ``ClangFormat``.
 On the ``Clang Format`` tab, configure ``clang-format-3.9`` as your executable and choose ``Use predefined style`` from ``File``.
+</details>
+<p>
 
-### Atom Editor Configuration
+<details><summary>Atom</summary><p>
 
 Install the [clang-format](https://atom.io/packages/clang-format) package via the Atom package manager or ``apm install clang-format``.
 
 In the package settings set ``clang-format-3.9`` as your executable and point 'Style' to your ``.clang-format`` file.
+</details>
 
 ## clang-tidy Linting
 

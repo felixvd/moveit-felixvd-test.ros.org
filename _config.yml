@@ -2,6 +2,7 @@ url: https://felixvd-moveit-test.github.io
 plugins:
   - jekyll-feed
   - jekyll-redirect-from
+markdown: CommonMarkGhPages
 
 sass:
   style: compressed

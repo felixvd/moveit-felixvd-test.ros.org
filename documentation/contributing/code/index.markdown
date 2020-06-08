@@ -101,7 +101,9 @@ Occationally the auto formatting used by clang-format might not make sense e.g. 
 
 Use this sparingly though.
 
+<details><summary>
 ### Emacs Editor Configuration
+</summary><p>
 
 In your ``~/.emacs`` config file, add the following:
 
@@ -123,6 +125,8 @@ Format your source code if its in some directory such as the ``catkin_ws`` (feel
 Set a keyboard shortcut to run, such as F12
 
     (global-set-key [f12] 'run-ros-clang-format)
+
+</details>
 
 ### QtCreator Editor Configuration
 

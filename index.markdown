@@ -1,435 +1,186 @@
----
-author: admin
-comments: false
-date: 2016-08-07 02:13:26+00:00
-layout: homepage
-slug: index
-title: index
-redirect_from: '/moveit/'
----
+# MoveIt Code Style Guidelines
 
-<div class="container">
-    <div class='row'>
-      <div class='col-sm-12'>
-            <div class="homepage">
-                <div class="modal fade" id="modalVideo" tabindex="-1" role="dialog" aria-labelledby="modalVideoLabel" aria-hidden="true">
-                    <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Montage video</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/0og1SaZYtRc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-between homepage-main-wrapper">
-                    <div class="col-xs-12 col-lg-5 col-sm-12">
-                        <div class="main">
-                            <div class="main-tag">
-                                <a href="/events/world-moveit-day/2020/04/28/world-moveit-day-2020.html">
-                                    <span class="blue">Announcement</span>
-                                    <span>World MoveIt Day Hackathon June 2nd!</span>
-                                </a>
-                            </div>
-                            <h1>Moving robots into the&nbsp;future</h1>
-                            <p class="main-text">Easy-to-use open source robotics manipulation platform for developing commercial applications, prototyping designs, and benchmarking algorithms.</p>
-                            <div class="button-group">
-                                <button class="button button-yellow modal-btn" data-toggle="modal" data-target="#modalVideo">Watch our montage</button>
-                                <a class="button button-yellow modal-link" href="https://www.youtube-nocookie.com/embed/0og1SaZYtRc" target="_blank">Watch our montage</a>
-                                <a class="button button-transparent" href="http://docs.ros.org/melodic/api/moveit_tutorials/html/index.html" target="_blank">Get Started</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-sm-12 col-lg-6">
-                        <div class="info-box">
-                            <img class="robot-hand" src="/assets/images/main/hero@2x.png" alt="Robot hand">
-                            <div class="info-box-content">
-                                <div class="info-box-header">
-                                    Latest: Melodic / Ubuntu 18.04
-                                </div>
-                                <a href="/install/" class="info-box-button button">Install Binaries</a>
-                                <div class="info-box-version">
-                                    Version: 1.0.2
-                                </div>
-                                <div class="link-group">
-                                    <a href="/install/source/" class="info-box-link">Build from Source</a>
-                                    <span>|</span>
-                                    <a href="https://github.com/ros-planning/moveit" target="_blank" class="info-box-link">View on Github</a>
-                                </div>
-                                <img src="/assets/images/logo/ROS_logo.png" alt="ROS logo" class="info-box-logo" />
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="section section--second">
-                    <div class="row">
-                        <div class="col-xs-12">
-                            <ul>
-                                <li>
-                                    <span>
-                                        <img src="/assets/images/icons/ic-motion.svg">
-                                    </span>
-                                    <h3>
-                                        Motion Planning
-                                    </h3>
-                                    <p>
-                                        Generate high-degree of freedom trajectories through cluttered environments and avoid local minimums
-                                    </p>
-                                </li>
-                                <li>
-                                    <span>
-                                        <img src="/assets/images/icons/ic-manipulation.svg">
-                                    </span>
-                                    <h3>
-                                        Manipulation
-                                    </h3>
-                                    <p>
-                                        Analyze and interact with your environment with grasp generation
-                                    </p>
-                                </li>
-                                <li>
-                                    <span>
-                                        <img src="/assets/images/icons/ic-kinematics.svg">
-                                    </span>
-                                    <h3>
-                                        Inverse Kinematics
-                                    </h3>
-                                    <p>
-                                        Solve for joint positions for a given pose, even in over-actuated arms
-                                    </p>
-                                </li>
-                                <li>
-                                    <span>
-                                        <img src="/assets/images/icons/ic-sine.svg">
-                                    </span>
-                                    <h3>
-                                        Control
-                                    </h3>
-                                    <p>
-                                        Execute time-parameterized joint trajectories to low level hardware controllers through common interfaces
-                                    </p>
-                                </li>
-                                <li>
-                                    <span>
-                                        <img src="/assets/images/icons/ic-3d.svg">
-                                    </span>
-                                    <h3>
-                                        3D Perception
-                                    </h3>
-                                    <p>
-                                        Connect to depth sensors and point clouds with Octomaps
-                                    </p>
-                                </li>
-                                <li>
-                                    <span>
-                                        <img src="/assets/images/icons/ic-navigation.svg">
-                                    </span>
-                                    <h3>
-                                        Collision Checking
-                                    </h3>
-                                    <p>
-                                        Avoid obstacles using geometric primitives, meshes, or point cloud data
-                                    </p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="row align-items-center justify-content-center text-center">
-                    <div class="col-sm-12">
-                        <h1 class="h1 text-center">Companies Using MoveIt</h1>
-                    </div>
-                    <div class="col-sm-12">
-                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/nasa-logo.png" alt="Nasa logo">
-                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/google-logo.png" alt="Google logo">
-                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/ms-logo.png" alt="Microsoft logo">
-                        <br class="onlyLg">
-                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/fetch-logo.png" alt="Fetch robotics logo">
-                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/franka-logo.png" alt="Franka Emika logo">
-                        <br class="onlyLg">
-                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/pal-logo.png" alt="Pal Robotics logo">
-                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/rtr_Logo.png" alt="RTR logo">
-                        <img class="companies-using-moveit-logos" src="/assets/images/Companies/kinova-logo.png" alt="Kinova logo">
-                    </div>
-                </div>
-                <div class="row justify-content-between block-with-image">
-                    <div class="col-xs-12 col-lg-4 col-md-6">
-                        <div class="text-block text-block--left">
-                            <h1>Rviz Motion Planning Plugin</h1>
-                            <p>Out-of-the box visual demonstrations allow new users interactive experimentation with various planning algorithms around obstacles. Execution on physical hardware is then just a click away.</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-md-6 col-lg-7">
-                        <img style="max-width:100%" alt="Rviz Motion Planning Plugin" src="/assets/images/screens/Rviz Motion Planning Plugin.png">
-                    </div>
-                </div>
-                <div class="row justify-content-between block-with-image">
-                    <div class="col-xs-12 col-md-6 col-lg-7">
-                        <img style="max-width:100%" alt="Gazebo Simulation" src="/assets/images/screens/r2.png">
-                    </div>
-                    <div class="col-xs-12 col-lg-4 col-md-6">
-                        <div class="text-block text-block--right">
-                            <h1>Gazebo Simulation</h1>
-                            <p>Speed up development and testing cycles by leveraging a full physics-based simulator with MoveIt. Combine Gazebo, ROS Control, and MoveIt for a powerful robotics development platform.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-between block-with-image">
-                    <div class="col-xs-12 col-lg-4 col-md-6">
-                        <div class="text-block text-block--right">
-                            <h1>MoveIt Setup Assistant</h1>
-                            <p>Quickly setup any robot to work with MoveIt with the step-by-step configuration wizard, or use popular pre-configured setups. Also includes configuration of Gazebo and ROS Control!</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-md-6 col-lg-7">
-                        <img style="max-width:100%" alt="Setup Assistant" src="/assets/images/screens/Setup Assistant.png">
-                    </div>
-                </div>
-                <div class="row justify-content-between block-with-image">
-                    <div class="col-xs-12 col-md-6 col-lg-7">
-                        <img style="max-width:100%" alt="MoveIt Task Constructor" src="/assets/images/screens/moveit_task_constructor.png">
-                    </div>
-                    <div class="col-xs-12 col-lg-4 col-md-6">
-                        <div class="text-block text-block--right">
-                            <h1>MoveIt Task Constructor</h1>
-                            <p>A flexible and transparent way to define and plan actions that consist of multiple interdependent subtasks!</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row justify-content-between block-with-image">
-                    <div class="col-xs-12 col-lg-4 col-md-6">
-                        <div class="text-block text-block--right">
-                            <h1>MoveIt Grasps</h1>
-                            <p>A basic grasp generator for objects such as blocks or cylinders for use with the MoveIt pick and place pipeline!</p>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-md-6 col-lg-7">
-                        <img style="max-width:100%" alt="MoveIt Grasps" src="/assets/images/screens/moveit_grasps.png">
-                    </div>
-                </div>
-                <div class="row justify-content-between block-with-image">
-                    <div class="col-xs-12 col-md-6 col-lg-7">
-                        <img style="max-width:100%" alt="Python Scripting" src="/assets/images/screens/python2.png">
-                    </div>
-                    <div class="col-xs-12 col-lg-4 col-md-6">
-                        <div class="text-block text-block--left">
-                            <h1>Python Scripting and Interpreter</h1>
-                            <p>Use high level Python scripts to orchestrate complex motion planning, leveraging high-performance C++ libraries in the background. Or use the C++ interfaces directly.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row last-section" style="background-image">
-                    <div class="col-xs-12 col-md-5">
-                        <img style="width:638px" src="/assets/images/main/why-moveit-images@2x.png">
-                    </div>
-                    <div class="col-xs-12 col-lg-4 col-sm-12">
-                        <h1>Why MoveIt?</h1>
-                        <p>
-                            MoveIt is the most widely used software for manipulation and has been used on over <a href="https://moveit.ros.org/robots/">100 robots</a>. It provides an easy-to-use robotics platform for developing advanced applications, evaluating new designs and building integrated products for industrial, commercial, R&D, and other domains.
-                        </p>
-                        <p>
-                            By incorporating the latest advances in motion planning, manipulation, 3D perception, kinematics, control and navigation, MoveIt is state of the art software for mobile manipulation.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="homepage--divider">
-    <div class="homepage--divider-image"></div>
-    <div class="homepage--divider--content">
-        <div class="container">
-            <div class='row current-version'>
-                <a id="release-dates"></a>
-                <div class='col-sm-12'>
-                    <h2 class="h1 text-center"><a id="release-versions" href="#release-versions">Current and Future Versions</a></h2>
-                </div>
-                <div class='col-sm-12 time-line-wrappper'>
-                    <h3>MoveIt 1.1 Noetic</h3>
-                    <div class="time-line">
-                        <div class="time-line--orange" id="time-line--orange-1"></div>
-                        <div class="time-line--blue" id="time-line--blue-1"></div>
-                        <div class="time-line--red" id="time-line--red-1"></div>
-                    </div>
-                    <div class="time-line-content">
-                        <div class="time-line--info">
-                            <p>March 2019</p>
-                        </div>
-                        <div class="time-line--info">
-                            <span class="time-line-box time-line-box--blue"></span>
-                            <p>
-                                Initial Development
-                                <small>1 March 2019</small>
-                            </p>
-                        </div>
-                        <div class="time-line--info">
-                            <span class="time-line-box time-line-box--orange"></span>
-                            <p>
-                                API Freeze
-                                <small>1 July 2020</small>
-                            </p>
-                        </div>
-                        <div class="time-line--info">
-                            <span class="time-line-box time-line-box--red"></span>
-                            <p>
-                                Official Release
-                                <small>15 July 2020</small>
-                            </p>
-                        </div>
-                        <div class="time-line--info">
-                            <p>July 2020</p>
-                        </div>
-                    </div>
-                </div>
-                <div class='col-sm-12 time-line-wrappper time-line-wrapper-future'>
-                    <h3>MoveIt 2.1 Foxy</h3>
-                    <div class="time-line">
-                        <div class="time-line--orange" id="time-line--orange-2"></div>
-                        <div class="time-line--blue" id="time-line--blue-2"></div>
-                        <div class="time-line--red" id="time-line--red-2"></div>
-                    </div>
-                    <div class="time-line-content">
-                        <div class="time-line--info">
-                            <p>February 2020</p>
-                        </div>
-                        <div class="time-line--info">
-                            <span class="time-line-box time-line-box--blue"></span>
-                            <p>
-                                Initial Development
-                                <small>14 February 2020</small>
-                            </p>
-                        </div>
-                        <div class="time-line--info">
-                            <span class="time-line-box time-line-box--orange"></span>
-                            <p>
-                                Feature Freeze
-                                <small>1 June 2020</small>
-                            </p>
-                        </div>
-                        <div class="time-line--info">
-                            <span class="time-line-box time-line-box--red"></span>
-                            <p>
-                                Official Release
-                                <small>1 July 2020</small>
-                            </p>
-                        </div>
-                        <div class="time-line--info">
-                            <p>July 2020</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class='row'>
-                <div class='col-sm-12 col-lg-6 version-wrapper'>
-                    <div class="version-header">
-                        <h3>Foxy 2.1 Beta </h3>
-                        <span class="label label--blue">Seeking Funding</span>
-                    </div>
-                    <div class="version-date">
-                        <p><span>Version:</span> 2.1</p>
-                        <p><span>Platforms:</span> Ubuntu 20.04</p>
-                        <p><span>Initial release:</span> 1 July 2020</p>
-                        <p><span>End of life:</span> July 2021</p>
-                        <p><span>Branch:</span> <a href="https://github.com/ros-planning/moveit2" target="_blank">moveit2:master</a></p>
-                    </div>
-                    <div class="version-content">
-                        <h4>Release notes</h4>
-                        <p>PickNik is actively seeking funding for development of MoveIt for ROS 2.
-                        See <a href="https://moveit.ros.org/documentation/contributing/roadmap/">roadmap</a>.</p>
-                    </div>
-                </div>
-                <div class='col-sm-12 col-lg-6 version-wrapper'>
-                    <div class="version-header">
-                        <h3>Noetic LTS</h3>
-                        <span class="label label--blue">In Development</span>
-                    </div>
-                    <div class="version-date">
-                        <p><span>Version:</span> 1.1</p>
-                        <p><span>Platforms:</span> Ubuntu 20.04</p>
-                        <p><span>Initial release:</span> 15 July 2020</p>
-                        <p><span>End of life:</span> May 2025</p>
-                        <p><span>Branch:</span> master</p>
-                    </div>
-                    <div class="version-content">
-                        <h4>Release notes</h4>
-                        <p>This is the actively developed 'master' branch of MoveIt for ROS 1.0, and will likely be the last version of MoveIt for ROS 1.0</p>
-                    </div>
-                </div>
-                <div class='col-sm-12 col-lg-6 version-wrapper'>
-                    <div class="version-header">
-                        <h3>Eloquent 2.0 Beta </h3>
-                        <span class="label label--orange">Released</span>
-                    </div>
-                    <div class="version-date">
-                        <p><span>Version:</span> 2.0</p>
-                        <p><span>Platforms:</span> Ubuntu 18.04</p>
-                        <p><span>Initial release:</span> 14 February 2020</p>
-                        <p><span>End of life:</span> November 2020</p>
-                        <p><span>Branch:</span> <a href="https://github.com/ros-planning/moveit2" target="_blank">moveit2:master</a></p>
-                    </div>
-                    <div class="version-content">
-                        <h4>Release notes</h4>
-                        <p>The first real <a href="https://moveit.ros.org/moveit/ros2/2020/02/18/moveit-2-beta-feature-list.html">release of MoveIt 2!</a></p>
-                    </div>
-                </div>
-                <div class='col-sm-12 col-lg-6 version-wrapper'>
-                    <div class="version-header">
-                        <h3>Dashing 2.0 Alpha</h3>
-                        <span class="label label--orange">Released</span>
-                    </div>
-                    <div class="version-date">
-                        <p><span>Version:</span> 2.0</p>
-                        <p><span>Platforms:</span> Ubuntu 18.04</p>
-                        <p><span>Initial release:</span> 1 June 2019</p>
-                        <p><span>End of life:</span> May 2021</p>
-                        <p><span>Branch: <a href="https://github.com/AcutronicRobotics/moveit2" target="_blank">AcutronicRobotics/moveit2</a></span> </p>
-                    </div>
-                    <div class="version-content">
-                        <h4>Release notes</h4>
-                        <p>This early preview of MoveIt 2.0 <a href="https://moveit.ros.org/moveit!/ros/2019/05/31/moveit2-alpha-release.html">was released</a> as a source build by Acutronic and has not been fully tested or verified.</p>
-                    </div>
-                </div>
-                <div class='col-sm-12 col-lg-6 version-wrapper'>
-                    <div class="version-header">
-                        <h3>Melodic LTS</h3>
-                        <span class="label label--green">Recommended</span>
-                    </div>
-                    <div class="version-date">
-                        <p><span>Version:</span> 1.0</p>
-                        <p><span>Platforms:</span> Ubuntu 16.04, 17.10, 18.04</p>
-                        <p><span>Initial release:</span> 23 May 2018</p>
-                        <p><span>End of life:</span> May 2023</p>
-                        <p><span>Branch:</span> melodic-devel</p>
-                    </div>
-                    <div class="version-content">
-                        <h4>Release notes</h4>
-                        <p>This LTS builds on the latest version of ROS1 and can also build on Ubuntu 16.04. This LTS is stable and no API changes are accepted.</p>
-                    </div>
-                </div>
-                <div class='col-sm-12 col-lg-6 version-wrapper'>
-                    <div class="version-header">
-                        <h3>Kinetic LTS</h3>
-                        <span class="label label--orange">Maintained</span>
-                    </div>
-                    <div class="version-date">
-                        <p><span>Version:</span> 0.9</p>
-                        <p><span>Platforms:</span> Ubuntu 15.10, 16.04</p>
-                        <p><span>Initial release:</span> 23 May 2016</p>
-                        <p><span>End of life:</span> April 2021</p>
-                        <p><span>Branch:</span> kinetic-devel</p>
-                    </div>
-                    <div class="version-content">
-                        <h4>Release notes</h4>
-                        <p>This LTS is stable and only bug fixes should be backported.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+We use the [ROS C++ Style guide](http://wiki.ros.org/CppStyleGuide) for all C++ development and the [ROS Python Style guide](http://wiki.ros.org/PyStyleGuide) for Python.
+
+To ease your development, we recommend the automated code formatter ``clang-format`` with a ROS configuration - to use see below.
+
+In addition MoveIt has some extra style preferences:
+
+## C++
+
+ - We use C++14
+ - Use the C++ standard library (``std::``) whenever possible
+ - Avoid C-style functions such as ``FLT_EPSILON`` - instead use ``std::numeric_limits<double>::epsilon()``
+ - Boost is an encouraged library when functionality is not available in the standard library
+ - Use "pragma once" in headers instead of include guards.
+
+## Inline Documentation
+
+ - We use Doxygen-style comments
+ - To document future work, use the format ``TODO(username): description``
+ - Add extensive comments to explain complex sections of code
+ - Prefer full, descriptive variable names over short acryonms - e.g. ``robot_state_`` over ``rs_``
+ - Avoid ``auto``, if the variable type doesn’t become clear immediately from the context (e.g. from ``make_shared<...>``)
+
+## Deprecation
+
+ - Deprecate functions using C++14 [``[[deprecated]]``](https://en.cppreference.com/w/cpp/language/attributes/deprecated) attribute
+ - Add a useful message describing how to handle the situation:
+
+        [[deprecated("use bar instead")]] void foo() {}
+
+   Which will result in:
+
+         warning: 'foo' is deprecated: use bar instead [-Wdeprecated-declarations] foo(); ^ note: 'foo' has been explicitly marked deprecated here void foo() {} ^
+
+ - Add an associated TODO describing when to remove the feature (date and/or ROS version)
+
+## Exceptions
+
+ - Catch known exceptions and log them in detail. Avoid using ``catch (...)`` as it hides every information of a possible fault. We want to know if something goes wrong.
+ - We don't catch exceptions that don't derive from ``std::exception`` in MoveIt. It is the responsibility of the plugin provider to handle non-``std::exception``-derived exceptions locally.
+
+## Logging
+
+ - The ROS logging functionality is utilized and namespaced. i.e. ``ROS_INFO_NAMED(LOGNAME, "Starting listener...``.
+   - This makes it easier to understand where output is coming from on the command line and allows for more fine-grained filtering of terminal output noise.
+   - Your logging namespace is defined as a ``const`` variable. (eg: ``const std::string LOGNAME = "robot_state";``)
+   - The use of the file name as the NAMED namespace is best practice, i.e. planning_scene.cpp would use ``"planning_scene"``
+   - Avoid using the package name as the namespace as this is already output by the logger
+
+## Shared Ptrs
+
+ - For creating ``shared_ptr`` of any object, use MoveIt's standard [macro](https://github.com/ros-planning/moveit/blob/master/moveit_core/macros/include/moveit/macros/class_forward.h) ``MOVEIT_CLASS_FORWARD(ClassName)`` before the class declaration, and add the include ``#include <moveit/macros/class_forward.h>``. This will create two typedefs of shared pointers - ``<ClassName>Ptr`` and ``<ClassName>ConstPtr`` using either ``boost`` or ``std``.
+
+## CMakeLists.txt
+
+MoveIt uses *one* folder for all headers from all of its modules: ``include/moveit``. To achieve this, install all headers to `${CATKIN_GLOBAL_INCLUDE_DESTINATION}` rather than using the normal `CATKIN_PACKAGE_INCLUDE_DESTINATION`:
+
+    install(DIRECTORY include/ DESTINATION ${CATKIN_GLOBAL_INCLUDE_DESTINATION})
+
+This is rather non-standard for catkin - catkin would prefer to have headers of each ROS package in a separate folder,
+e.g. `include/moveit_core/...`, `include/moveit_ros_planning/...`, etc.
+
+## clang-format Auto Code Formatting
+
+You can run **clang-format** in several ways. To install on Ubuntu simply run:
+
+    sudo apt-get install clang-format-3.9
+
+Please note that we rely on clang-format version **3.9**. Sadly, newer versions are not fully backward compatible.
+
+clang-format requires a configuration file in the root of your catkin workspace. The MoveIt repo contains this file [here](https://github.com/ros-planning/moveit/blob/master/.clang-format).
+
+### Command Line
+
+Format a single file:
+
+    clang-format-3.9 -i -style=file MY_ROS_NODE.cpp
+
+Format an entire directory recursively including subfolders:
+
+    find . -name '*.h' -or -name '*.hpp' -or -name '*.cpp' | xargs clang-format-3.9 -i -style=file $1
+
+### Exceptions to clang-format
+
+Occationally the auto formatting used by clang-format might not make sense e.g. for lists of items that are easier to read on separate lines. It can be overwritten with the commands:
+
+    // clang-format off
+    ... some untouched code
+    // clang-format on
+
+Use this sparingly though.
+
+<details><summary>
+### Emacs Editor Configuration
+</summary><p>
+
+In your ``~/.emacs`` config file, add the following:
+
+Format your source code if its in some directory such as the ``catkin_ws`` (feel free to change keywords catkin_ws):
+
+```
+(defun run-ros-clang-format ()
+"Runs clang-format on cpp,h files in catkin_ws/ and reverts buffer."
+(interactive)
+(and
+(string-match "/catkin_ws/.*\\.\\(h\\|cpp\\)$" buffer-file-name)
+(save-some-buffers 'no-confirm)
+(shell-command (concat "clang-format-3.9 -style=file -i " buffer-file-name))
+(message (concat "Saved and ran clang-format on " buffer-file-name))
+(revert-buffer t t t)
+))
+```
+
+Set a keyboard shortcut to run, such as F12
+
+    (global-set-key [f12] 'run-ros-clang-format)
+
+</details>
+
+### QtCreator Editor Configuration
+
+Navigate to ``Tools`` > ``Options`` > ``Beautifier``
+On the ``General`` tab, enable auto format on file save, using ``ClangFormat``.
+On the ``Clang Format`` tab, configure ``clang-format-3.9`` as your executable and choose ``Use predefined style`` from ``File``.
+
+### Atom Editor Configuration
+
+Install the [clang-format](https://atom.io/packages/clang-format) package via the Atom package manager or ``apm install clang-format``.
+
+In the package settings set ``clang-format-3.9`` as your executable and point 'Style' to your ``.clang-format`` file.
+
+## clang-tidy Linting
+
+**clang-tidy** is a linting tool for C++. Where **clang-format** will fix the formatting of your code
+(wrong indentation, line length, etc), **clang-tidy** will fix programming errors to make your code
+more modern, more readable, and less prone to common bugs.
+
+You can install clang-tidy and other clang related tools with
+`sudo apt-get install clang-tidy clang-tools`
+
+Similarly to clang-format, clang-tidy uses the configuration file [``.clang-tidy``](https://github.com/ros-planning/moveit/blob/master/.clang-tidy) that is found first when traversing the source folder hierarchy upwards. The MoveIt repo provides this file [here](https://github.com/ros-planning/moveit/blob/master/.clang-tidy).
+
+
+Other than clang-format, clang-tidy needs to know the exact compiler options used to build your project.
+To provide them, configure cmake with ``-DCMAKE_EXPORT_COMPILE_COMMANDS=ON`` and cmake will create in the package's build
+folder a file called ``compile_commands.json``. _After_ building, you can run clang-tidy to analyze your code and even
+**fix** issues automatically as follows:
+
+```sh
+for file in $(find $CATKIN_WS/build -name compile_commands.json) ; do
+	run-clang-tidy -fix -header-filter="$CATKIN_WS/.*" -p $(dirname $file)
+done
+```
+
+You can run it also on selected folders or files of a package by specifying regular expressions to match the file names:
+```sh
+run-clang-tidy -fix -header-filter="$CATKIN_WS/.*" -p $CATKIN_WS/build/moveit_core collision
+```
+
+Note that if you have multiple layers of nested ``for`` loops that need to be converted, clang-tidy
+will only fix one at a time. So be sure to run the above command a few times to convert all code.
+
+If you are only interested in the warnings, clang-tidy can also run directly during your build.
+You can make a specific clang-tidy build with:
+```
+catkin config --cmake-args -DCMAKE_EXPORT_COMPILE_COMMANDS=ON -DCMAKE_CXX_CLANG_TIDY=clang-tidy
+catkin build
+```
+
+### Exceptions to clang-tidy
+
+It is possible to suppress undesired clang-tidy checks by using **NOLINT** or **NOLINTNEXTLINE** comments. Please specify the check names explicitly in parentheses following the comments:
+```c++
+const IKCallbackFn solution_callback = 0; // NOLINT(modernize-use-nullptr)
+
+// NOLINTNEXTLINE(performance-unnecessary-copy-initialization)
+robot_state::RobotState robot_state(default_state);
+```
+Note that `modernize-loop-convert` check may convert `for (...; ...; ...)` loops to `for (auto & ... : ...)`.
+However, `auto` is not an expression highly readable.
+Please explicitly specify the variable type, if it doesn't become clear immediately from the context:
+```c++
+for (const int & item : container)
+  std::cout << item;
+```
